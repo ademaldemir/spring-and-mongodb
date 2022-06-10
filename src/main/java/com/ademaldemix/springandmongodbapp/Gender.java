@@ -1,2 +1,5 @@
-package com.ademaldemix.springandmongodbapp;public enum Gender {
+package com.ademaldemix.springandmongodbapp;
+
+public enum Gender {
+    MALE, FEMALE
 }
