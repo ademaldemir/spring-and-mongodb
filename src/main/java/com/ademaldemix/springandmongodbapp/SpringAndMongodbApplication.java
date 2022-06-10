@@ -21,7 +21,7 @@ public class SpringAndMongodbApplication {
         SpringApplication.run(SpringAndMongodbApplication.class, args);
     }
 
-    @Bean
+/*    @Bean
     CommandLineRunner runner(StudentRepository repository) {
         return args -> {
             Address address = new Address("Turkey", "Istanbul","64000");
@@ -46,7 +46,7 @@ public class SpringAndMongodbApplication {
                 repository.insert(student);
             }
         };
-    }
+    }*/
 
     private void usingMongoTemplateAndQuery(StudentRepository repository, MongoTemplate mongoTemplate, String email, Student student) {
         Query query = new Query();
